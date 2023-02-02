@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="plugin/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- TOP -->
+
+
+    <div id="header">
+        <div class="container">
+            <div id="top-logo">
+                <a href="index.html"><img class="banner-image" src="images/earth.png" alt=""></a>
+            </div>
+
+            <div id="toggle">
+                <i class="fa-solid fa-bars" id="nav-toggle"></i>
+            </div>
+
+            <div class="nav">
+                <ul class="main-menu">
+                    <li><a class="main-menu-category" href="index.html">Home</a></li>
+                    <li class="li-1"><a class="main-menu-category li-parent" href="news.html">News</a>
+                        <ul class="sub-menu">
+                            <li><a href="#home">Sub-menu-1</a></li>
+                            <li class="li-1-1"><a class="li-child" href="#home">Sub-menu-2</a>
+                                <ul class="sub-menu-child">
+                                    <li><a href="#home">Sub-menu-2.1</a></li>
+                                    <li><a href="#home">Sub-menu-2.2</a></li>
+                                    <li><a href="#home">Sub-menu-2.3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#home">Sub-menu-3</a>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="main-menu-category" href="contact.html">Contact</a></li>
+                    <li><a class="main-menu-category" href="aboutus.html">About us</a></li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-search" id="search-icon"></i>
+            </div>
+
+            <form action="#" id="search-form">
+                <input class="search-input" type="search" name="search" placeholder="Search..">
+                <label for="search" class="fas fa-search"></label>
+            </form>
+
+        </div>
+    </div>
+
+
+    <!-- CONTENT -->
+
+
+    <div id="wp-content">
+        <div class="container">
+            <h3 class="title">ABOUT THE COMPANY</h3>
+            <p class="sub-title">Key features of our company</p>
+            <div class="list">
+                <div class="list-category">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="feature">Responsive</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.</p>
+                </div>
+                <div class="list-category">
+                    <i class="fa fa-heart"></i>
+                    <p class="feature">Passion</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.</p>
+                </div>
+                <div class="list-category">
+                    <i class="fa-regular fa-gem"></i>
+                    <p class="feature">Design</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.</p>
+                </div>
+                <div class="list-category">
+                    <i class="fa fa-cog"></i>
+                    <p class="feature">Support</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+
+
+    <div id="wp-footer">
+        <div class="container">
+            <div id="about-us">
+                <div class="box-head">
+                    <span><img class="banner-image" src="images/earth.png" alt=""></span>
+                </div>
+                <div class="box-body">
+                    <ul class="company-info">
+                        <li><i class="fa-solid fa-location-dot"></i>
+                            <p>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Totam, excepturi.</p>
+                        </li>
+                        <li><i class="fa-solid fa-mobile"></i>
+                            <p>0999999999</p>
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i>
+                            <p>(+84 28)12345678</p>
+                        </li>
+                        <li><i class="fa-solid fa-envelope"></i>
+                            <p>abc90@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="follow-us">
+                <div class="box-head">
+                    <p>Social</p>
+                </div>
+                <div class="box-body">
+                    <ul class="list-social">
+                        <li>
+                            <button><i class="fa-brands fa-square-facebook"></i></button>
+                        </li>
+                        <li>
+                            <button><i class="fa-brands fa-square-instagram"></i></button>
+                        </li>
+                        <li>
+                            <button><i class="fa-brands fa-square-youtube"></i></button>
+                        </li>
+                        <li>
+                            <button><i class="fa-brands fa-square-pinterest"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="wp-copyright">
+        <div class="container">
+            <p class="copyright">Copyright © 2022 ABC. All right Reserved</p>
+        </div>
+    </div>
+
+
+    <!-- SCROLL TO TOP -->
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js/aboutus.js"></script>
+</body>
+
+</html>
